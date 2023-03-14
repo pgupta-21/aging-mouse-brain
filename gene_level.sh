@@ -24,7 +24,7 @@ hisat2-build /usr/users/pgupta2/Mus_musculus.GRCm39.dna.toplevel.fa /usr/users/p
 
 # Alignment using HISAT2
 for file in *.fastq; do
-	hisat2 -p 8 --dta -x /usr/users/pgupta2/mus_index/mus_idx -U $file -S '$file.bam'
+	hisat2 -p 8 --dta -x /usr/users/pgupta2/mus_index/mus_idx -U $file -S '${file}.bam'
 done
 
 # Sorting bam files
