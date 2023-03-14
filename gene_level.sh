@@ -29,7 +29,7 @@ done
 
 # Sorting bam files
 for file in *.bam; do
-	samtools sort ~/align_files/bam_files/*.bam -o ~/align_files/bam_files/sorted_bam/$file.sorted.bam
+	samtools sort ~/align_files/bam_files/*.bam -o ~/align_files/bam_files/sorted_bam/${file}.sorted.bam
 done
 
 # Quantification using subread
