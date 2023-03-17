@@ -23,3 +23,5 @@ achieved by the following specific steps-
     obtained.
     
 The following repository contains Bash and R code for the above mentioned steps.
+
+[![DOI](https://zenodo.org/badge/614053967.svg)](https://zenodo.org/badge/latestdoi/614053967)
